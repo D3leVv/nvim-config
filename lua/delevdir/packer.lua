@@ -18,13 +18,14 @@ return require('packer').startup(function(use)
 	)
 
 use("https://github.com/folke/tokyonight.nvim")
+use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} };
 use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
 use('mbbill/undotree')
 use('tpope/vim-fugitive')
 use('github/copilot.vim')
 use("nvim-treesitter/nvim-treesitter-context");
-
+use("mfussenegger/nvim-dap");
 use {
 	'VonHeikemen/lsp-zero.nvim',
 	branch = 'v1.x',
