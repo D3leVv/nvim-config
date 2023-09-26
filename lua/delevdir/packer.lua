@@ -2,6 +2,8 @@
 
 -- Only required if you have packer configured as `opt`
 vim.cmd [[packadd packer.nvim]]
+vim.cmd([[ command! RunTSFile :lua require'YOUR_LUA_MODULE_NAME'.run_ts_file() ]])
+
 
 return require('packer').startup(function(use)
 	-- Packer can manage itself
@@ -58,7 +60,12 @@ use("folke/zen-mode.nvim")
 use("github/copilot.vim")
 use("eandrju/cellular-automaton.nvim")
 use("laytan/cloak.nvim")
+use({
+    'numToStr/Comment.nvim',
+    config = function()
+        require('Comment').setup()
+    end
+})
 use("sbdchd/neoformat")
-
-
 end)
+
