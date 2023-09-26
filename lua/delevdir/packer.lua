@@ -17,7 +17,12 @@ return require('packer').startup(function(use)
 	{run = ':TSUpdate'}
 	)
 
-use("https://github.com/folke/tokyonight.nvim")
+use({"https://github.com/folke/tokyonight.nvim",
+as ='tokyonight',
+config = function()
+    vim.cmd('colorscheme tokyonight')
+end
+})
 use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} };
 use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
