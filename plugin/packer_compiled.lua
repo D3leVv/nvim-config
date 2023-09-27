@@ -135,6 +135,11 @@ _G.packer_plugins = {
     path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["lorem.nvim"] = {
+    loaded = true,
+    path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/lorem.nvim",
+    url = "https://github.com/derektata/lorem.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -210,6 +215,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/tokyonight",
     url = "https://github.com/folke/tokyonight.nvim"
+  },
+  ["tsc.nvim"] = {
+    loaded = true,
+    path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/tsc.nvim",
+    url = "https://github.com/dmmulroy/tsc.nvim"
   },
   undotree = {
     loaded = true,

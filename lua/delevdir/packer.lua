@@ -25,6 +25,7 @@ config = function()
     vim.cmd('colorscheme tokyonight')
 end
 })
+use { "derektata/lorem.nvim" }
 use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} };
 use('nvim-treesitter/playground')
 use('theprimeagen/harpoon')
@@ -67,5 +68,6 @@ use({
     end
 })
 use("sbdchd/neoformat")
+use('dmmulroy/tsc.nvim')
 end)
 
