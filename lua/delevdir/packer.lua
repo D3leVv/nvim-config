@@ -34,6 +34,7 @@ use('tpope/vim-fugitive')
 use('github/copilot.vim')
 use("nvim-treesitter/nvim-treesitter-context");
 use("mfussenegger/nvim-dap");
+use("mattn/emmet-vim");
 use {
 	'VonHeikemen/lsp-zero.nvim',
 	branch = 'v1.x',

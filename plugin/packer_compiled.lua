@@ -125,6 +125,11 @@ _G.packer_plugins = {
     path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/copilot.vim",
     url = "https://github.com/github/copilot.vim"
   },
+  ["emmet-vim"] = {
+    loaded = true,
+    path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/emmet-vim",
+    url = "https://github.com/mattn/emmet-vim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/Users/ivodelev/.local/share/nvim/site/pack/packer/start/friendly-snippets",
